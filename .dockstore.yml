@@ -1,0 +1,5 @@
+version: 1.0
+name: exampleWDLfile
+  subclass: WDL
+  primaryDescriptorPath: /foo/wdl/tasks/example.wdl
+  testParameterFiles:
