@@ -2,7 +2,7 @@ workflow runExample {
     call helloworld
 
     output{
-        File hello = helloworld.outputHello
+        File hello="~{helloworld.outputHello}"
     }
 }
 
