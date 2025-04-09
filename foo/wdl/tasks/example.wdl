@@ -7,7 +7,7 @@ workflow runExample {
 }
 
 task helloworld {
-    input {
+    input{
         File name
         String output_name
     }
