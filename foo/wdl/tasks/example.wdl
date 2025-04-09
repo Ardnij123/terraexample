@@ -13,8 +13,7 @@ task helloworld {
     }
 
     command <<<
-        namefile = $(basename ~{name}) | sed s/.txt$//'
-        echo "Hello `cat $namefile`" > ~{outputHello}
+        echo "Hello `cat ~{hello}`" > ~{outputHello}
     >>>
 
     output {
